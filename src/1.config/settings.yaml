@@ -1,0 +1,17 @@
+project:
+  name: fintech-fraud-detection
+  environment: production
+
+data:
+  raw_path: data/train_transaction.csv
+           data/train_identity.csv
+
+
+model:
+  type: xgboost
+  artifact_path: artifacts/model.pkl
+  threshold: 0.18
+
+monitoring:
+  psi_threshold: 0.2
+  retrain_trigger_days: 7
