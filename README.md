@@ -55,14 +55,12 @@ The project follows a production-oriented machine learning workflow:
 fraud-detection-xgboost/
 │
 ├── data/
-│   ├── features_train.csv
-│   ├── results.csv
 │   ├── sample_submission.csv
 │   ├── schema.json
-│   ├── test_identity.csv
-│   ├── test_transaction.csv
-│   ├── train_identity.csv
-│   └── train_transaction.csv
+│   ├── test_identity.rar
+│   ├── test_transaction.rar
+│   ├── train_identity.rar
+│   └── train_transaction.rar
 │
 ├── Model
 │   └── xgb_model.pki
